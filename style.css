@@ -1,0 +1,85 @@
+.body{
+    font-family: rubik;
+    font-style: normal;
+}
+.container{
+    width: 1995px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    background-color: rgb(211, 201, 221);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left-block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-logo{
+    width: 62px;
+}
+.header__title-container{
+    display: flex;
+    flex-direction: column;
+}
+.heder__title{
+    font-weight: 600;
+    font-size: 12px;
+    color: #484B50;
+}
+.heder__subtitle{
+    font-weight: 400;
+font-size: 10px;
+line-height: 120%;
+color: #484B50;
+}
+.heder__rigt-block{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+.heder__button1{
+    font-weight: 400;
+font-size: 15px;
+color: #484B50;
+width: 139px;
+height: 40px;
+border-radius: 6px;
+border: 1px solid;
+}
+.heder__button2{
+    width: 148px;
+    height: 40px;
+    border-radius: 6px;
+    border:none;
+    background: #4444C7;
+    font-weight: 600;
+font-size: 15px;
+color: #FFFFFF;
+}
+.heder__button3{
+    width: 40px;
+height: 22px;
+right: 0px;
+background: #E3E3F0;
+border-radius: 6px;
+border:none;
+display: flex;
+align-items:center;
+justify-content: center;
+font-weight: 500;
+font-size: 9px;
+color: #484B50;
+gap: 5px;
+}
+.heder__button3 img{
+    width: 12px;
+height: 12px;
+left: 5px;
+background: #FFFFFF;
+border-radius: 32px;
+}
